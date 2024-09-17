@@ -1,8 +1,8 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
 }
 
 .logo img{
@@ -28,10 +28,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(img/fundo-login.svg);
+    background-image: url(img/fundo-login.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
     position: relative; /* Garante que a camada ::before seja posicionada corretamente */
 }
 
@@ -56,8 +57,8 @@ body {
     width: 440px;
     padding: 40px 32px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de transparência */
-    backdrop-filter: blur(20px); /* Adiciona um desfoque de 10 pixels ao fundo */
+    background: rgba(255, 255, 255, 0.6); /* Cor branca com 70% de transparência */
+    backdrop-filter: blur(35px); /* Adiciona um desfoque de 10 pixels ao fundo */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
