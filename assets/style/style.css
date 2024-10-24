@@ -1,0 +1,130 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    z-index: 10; /* Coloca o header acima do vídeo */
+    position: relative; /* Para garantir que o z-index funcione corretamente */
+    background-color: white; /* Caso precise de fundo visível */
+    margin-bottom: 100px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.logo-header img{
+    width: 120px;
+    height: 100%;
+}
+
+.header-info ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.header-info li{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.header-info li:hover{
+    color: blue;
+}
+
+
+.header-login{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+
+.header-login a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.container1 video{
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.container1 .text-area{
+    z-index: 2;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    opacity: 70%;
+    border-radius: 10%;
+}
+
+.text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.text-area h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3{
+    width: 100%;
+    height: 800px;
+    background-color: #d5d5d5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5{
+    display: none;
+}

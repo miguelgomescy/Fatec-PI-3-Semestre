@@ -20,19 +20,19 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(166, 235, 245, 0.276); /* Cor azul claro com 40% de opacidade */
-    z-index: -1; /* Coloca esta camada atrás da imagem de fundo */
+    background-color: #00000046; 
+    z-index: -1; 
 }
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(img/fundo-login.svg);
+    background-image: url(../img/ok.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative; /* Garante que a camada ::before seja posicionada corretamente */
+    position: relative;  
 }
 
 
